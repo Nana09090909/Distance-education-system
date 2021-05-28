@@ -1,0 +1,255 @@
+body {
+    marign:0;
+   padding-left: 10%;
+   background-image: url('../images/wood.jpg');
+}
+.big{font-size: 36px;}
+textarea{
+    display:block;
+    margin:20px;
+     }
+.showdetails{
+    display:none;
+    padding: 5px;
+   
+}
+.grb{
+    font-size: 20px;
+}
+.personalbar{
+    cursor:pointer;
+    text-decoration:underline;
+}
+.personalbar:hover{
+    color:red;
+}
+.grb td{
+padding:10px;
+   
+}
+.star{
+    color:red;
+    font-size:18px;
+}
+
+.details{
+    color:blue;
+    cursor: pointer;
+}
+.assignmentlist td {
+     min-height: 50px;
+       padding:5px;
+    
+}
+.hidden{
+    display:none;
+    max-height: 400px;
+    overflow: auto;
+}
+.reveal{
+    color:blue;
+    cursor: pointer;
+    font-size: 14px;      
+}
+.reveal:hover{
+    color:red;
+    font-size: 16px;      
+}
+
+#wrestorepass{
+    padding:50px;
+    color:red;
+    font-size: 18px;
+}
+.library{
+    padding-top:20px;
+    
+}
+.assess textarea{
+    display:block
+    
+}
+.gradeassignment div{
+padding: 10px;    
+    
+}
+.redpointer{
+    color:red;
+    cursor: pointer;
+      
+}
+#assignment{
+    display:none;
+    width:90%; 
+    padding:30px;
+    background-image: url('../images/bgpb.jpg');
+    z-index:200;
+    
+}
+#assignment textarea{
+    display:block;
+    width: 80%;
+    height:300px;
+}
+.asslist{
+    cursor:pointer;
+    font-size:20px;
+    padding: 10px;
+    border-bottom-style: solid;
+    min-height: 50px; 
+    
+}
+.asslist:hover{font-size:22px; color:red}
+.submitted{
+    
+    cursor: pointer;
+    color:green;          
+    font-size:16px;
+    font-weight:bold;    
+}
+
+#assignmentcontent{
+    
+    min-height: 700px;
+    padding:20px;
+    background-color: white;
+    
+}
+.leadingimg{
+    float:left;
+    margin-right: 25px;
+    width:200px;
+    
+}
+.quit{
+ display:inline;
+  cursor:pointer;
+  color: red;
+    
+}
+#enrtable{
+    border-style:solid;
+    
+}
+#enrtable td{
+border-style: dotted;
+ min-width:200px;
+ vertical-align: top;
+ padding: 5px;
+}
+.menu{
+    width:194px;
+    margin-top:5px;
+    background-image: url('../images/teaserbg.jpg');
+    color:white;
+    height: 50px;
+    font-size: 15px;
+    font-weight: bold;
+   font-family: serif;
+    padding-top:50px;
+    vertical-align: center;
+    text-align: center;
+    cursor:pointer
+}
+.menu:hover{
+    border-color: #e8fc08;
+    border-style: solid;
+    border-width: thick;
+    color:#e8fc08;
+}
+.personal{   
+ 
+        padding:5px;
+        position:absolute;
+        top:300px;
+        right:20px;
+        
+        z-index: 50;
+}
+
+#questionbody{
+    display: none;
+}
+.wrapper{
+    margin-top:0;
+ min-height:900px;
+  width:90%; 
+   background-image: url('../images/bgpb.jpg');
+  
+}
+.workingarea{
+  padding-top:10px; 
+ margin-left: 25px;
+ margin-right: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-bottom: 10px;
+  
+     }
+     .exit img{
+         width:50px;
+         height: 50px;
+           
+     }
+     .exit{
+         position: absolute;
+         top:5px;
+         right:5px;
+     }
+     
+    #content{
+        margin-top: 0;
+        padding-top: 10px;
+        padding-left: 50px;
+        padding-right:50px;
+        background-color: white;
+        min-height:700px; 
+        margin-bottom:10px;
+        
+       }
+       #question{
+           cursor: pointer;
+           font-weight: bold;
+       }
+#classtopbanner{
+    margin-top:15px;
+    width:914px;
+    height:80px;
+    background-repeat: repeat-x;
+    background-image:  url('../images/classtopbanner.jpg');
+    text-align:center;
+   padding-top: 140px;
+    color:white;   
+    margin-bottom:0;
+   
+    
+}
+#classtopbanner a{color:white;}
+
+#classtopbannerem{
+    text-align: center;
+    margin-top:15px;
+         width:914px;
+    height:140px;
+    overflow: hidden;
+    background-repeat: repeat-x;
+    background-image:  url('../images/classtopbannerempty.jpg');
+    text-align:center;
+    font-size:42px;
+   padding-top: 60px;
+    color:white;   
+    margin-bottom:0px;
+    
+}
+#accountant{    
+    margin-top:15px;
+    width:914px;
+    height:194px;
+    background-repeat: repeat-x;
+    background-image:  url('../images/accountant.jpg');
+    text-align:center;
+    font-size:42px;
+   padding-top: 60px;
+    color:white;   
+    margin-bottom:0px;    
+}

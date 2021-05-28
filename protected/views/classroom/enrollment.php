@@ -1,0 +1,1 @@
+<script>window.open("index.php#listofcourses"); location.replace("index.php?r=classroom")</script>

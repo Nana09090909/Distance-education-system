@@ -1,0 +1,2 @@
+﻿VirtualKeyboard.addLayout({code:'EL-GR',name:'Greek',keys:'`1234567890-=\\;ςερτυθιοπ[]ασδφγηξκλ΄\'ζχψωβνμ,./',shift: {0:'~!@#$%^&*()_+|:΅',24:'{}',35:'¨"',44:'<>?'},alt: {2:'²³£§¶',8:'¤¦°±½¬',16:'€®',19:'¥',24:'«»',35:'΅',39:'©'},dk:'΅΄'});
+VirtualKeyboard.addLayout({code:'HE-IL',name:'Hebrew',keys:';1234567890+-\\/\'קראטוןםפ][שדגכעיחלךף,זסבהנמצתץ.',shift: {0:'~!@#$%^&*()-=|qwertyuiop}{asdfghjkl:"zxcvbnm<>?'}});

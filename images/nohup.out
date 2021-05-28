@@ -1,0 +1,3 @@
+	zip warning: name not matched: ьСє їјСЎї-1.psd
+
+zip error: Nothing to do! (try: zip -r archive.17:31:13.zip . -i ьСє їјСЎї-1.psd)
