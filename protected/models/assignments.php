@@ -26,7 +26,7 @@ $fr=new frame($this->frame);
       eval("\$params=array(".$this->restore($r['params']).");");
       if(file_exists('convert/'.$fr->course)){ 
         
-    $replacearr=json_decode(file_get_contents('convert/'.$fr->course),1);
+    $replacearr=json_decode(file_get_contents('convert/'.$fr->course),1);//Это костыль после смены места хранения материалов. 
     $newparams=$this->replaceass($this->code,$params,$replacearr);
     $this->code=$newparams[0];
     $params=$newparams[1];
